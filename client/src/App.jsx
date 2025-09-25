@@ -6,6 +6,8 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  console.log("API_BASE at runtime:", import.meta.env.VITE_API_BASE);
+  
   const API_BASE = import.meta.env.VITE_API_BASE || "";
 
   const handleSearch = async () => {
@@ -50,3 +52,4 @@ function App() {
 }
 
 export default App;
+
