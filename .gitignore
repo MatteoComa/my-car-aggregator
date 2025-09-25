@@ -1,0 +1,30 @@
+# Node dependencies
+node_modules
+client/node_modules
+api/node_modules
+
+# Production build outputs
+dist
+client/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.swo
+
+# Package manager lockfiles (optional)
+# Keep package-lock.json tracked if you want reproducible npm builds
+# Ignore pnpm and yarn locks since you’re using npm
+pnpm-lock.yaml
+yarn.lock
