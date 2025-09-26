@@ -1,4 +1,5 @@
 ## Snapshot Date - 26/09/25
+*This file is aimed at developers. A shortened summary document is available at [README.md](./README.md)*
 
 # 🚗 Car Aggregator (Australian AutoTempest-style)
 
@@ -265,4 +266,5 @@ export default async function handler(req, res) {
 4. **Make it look nice**
    - Tailwind/shadcn for styling
    - Responsive grid, clean typography, error toasts
+
 
