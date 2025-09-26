@@ -247,6 +247,21 @@ export default async function handler(req, res) {
   "type": "module"
 }
 ```
+
+## 🔒 Security & Secrets
+
+- **Never commit `.env` files** or real API keys.  
+  Use GitHub Actions → Repository Secrets and Vercel → Project Settings → Environment Variables instead.
+
+- **Vite variables (`VITE_*`) are always public.**  
+  Only put safe-to-expose values here (e.g. API base URLs).  
+  Keep real secrets on the backend side only.
+
+- Review `.gitignore` to ensure `.env*` files and build artifacts stay untracked.
+
+- Rule of thumb: if it could give someone access to accounts, billing, or private data, it should **not** be committed.
+
+
 ✅ Next Steps
 1. **Hook up eBay Motors API**
    - Add `EBAY_CLIENT_ID` + `EBAY_CLIENT_SECRET` to API env vars
@@ -266,5 +281,6 @@ export default async function handler(req, res) {
 4. **Make it look nice**
    - Tailwind/shadcn for styling
    - Responsive grid, clean typography, error toasts
+
 
 
