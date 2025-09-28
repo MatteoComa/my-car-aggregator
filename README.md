@@ -71,4 +71,6 @@ For detailed setup instructions, current repo structure, code snippets, and the 
 ---
 
 ## 📜 License
-*MIT — free to use and adapt.*
+
+*This repository is provided publicly for portfolio and demonstration purposes only.  
+No license is granted for reuse, modification, or distribution.*
